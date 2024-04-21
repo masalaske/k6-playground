@@ -1,0 +1,17 @@
+{
+  "name": "k6-playground",
+  "version": "1.0.0",
+  "description": "A playground for k6",
+  "devDependencies": {
+    "@types/k6": "^0.50.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
+  },
+  "scripts": {
+    "build": "npx vite build",
+    "start": "sh ./run.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
